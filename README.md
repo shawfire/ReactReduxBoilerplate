@@ -1,14 +1,15 @@
-# ReactReduxBoilerplate
-React, Redux boiler plate which uses Webpack and supports TDD (Test Driven Development).
-
+# ReactReduxTDD
+React Redux Test driven development (TDD).
 ```
 npm install
 npm start
-http://localhost:8080   # Output from component "src/components/app.js"
-npm run test:watch      # Run tests from "test/components/app_test.js"
+npm run test:watch
 ```
+<<<<<<< HEAD
 When adding components and their test rerun this command as mocha will not
 pick up these changes automatically.
+=======
+>>>>>>> origin/master
 
 Add Comment label
 --------------
@@ -28,5 +29,8 @@ We care about...
 
 Make assertions about the end product so as not to make code brittle that
 means that the code can be refactored as long as it produces the same output.
+<<<<<<< HEAD
 
 [chaijs/chai-jquery](https://github.com/chaijs/chai-jquery)
+=======
+>>>>>>> origin/master
