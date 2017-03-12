@@ -1,5 +1,5 @@
 import { renderComponent , expect } from '../test_helper';
-import App from '../../src/components/comment_box';
+import CommentBox from '../../src/components/comment_box';
 
 // We care about...
 // - It has a text area (Controlled input)
@@ -10,7 +10,8 @@ import App from '../../src/components/comment_box';
 describe('CommentBox' , () => {
 
   it('has a text area', () => {
-
+    const component = renderComponent(CommentBox);
+    expect(component.find('textarea')).to.exist;
   });
 
   // Use 'it' to test a single attribute of a target

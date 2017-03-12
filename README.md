@@ -28,3 +28,5 @@ We care about...
 
 Make assertions about the end product so as not to make code brittle that
 means that the code can be refactored as long as it produces the same output.
+
+[chaijs/chai-jquery](https://github.com/chaijs/chai-jquery)
