@@ -15,11 +15,12 @@ export default class CommentBox extends Component {
   // // JSX - What looks like HTML in our JavaScript
   // //  this code get s transpiled with babel to produce JS
   // //  i.e. babeljs.io/repl
+  // Add className that corresponds to component for debugging purposes.
   render() {
     return (
       <div>
         <textarea />
-        <button></button>
+        <button>Submit Comment</button>
       </div>
     );
   }

@@ -9,6 +9,12 @@ import CommentBox from '../../src/components/comment_box';
 // Use describe to group together similar tests.
 describe('CommentBox' , () => {
 
+  it('has a the correct class', () => {
+    const component = renderComponent(CommentBox);
+    expect(component).to.have.class('comment-box');
+  });
+
+
   it('has a text area', () => {
     const component = renderComponent(CommentBox);
     expect(component.find('textarea')).to.exist;
