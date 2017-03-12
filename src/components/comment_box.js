@@ -18,7 +18,7 @@ export default class CommentBox extends Component {
   // Add className that corresponds to component for debugging purposes.
   render() {
     return (
-      <div>
+      <div className="comment-box">
         <textarea />
         <button>Submit Comment</button>
       </div>
