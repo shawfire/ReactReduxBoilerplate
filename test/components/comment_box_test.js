@@ -16,6 +16,7 @@ describe('CommentBox' , () => {
 
   // Use 'it' to test a single attribute of a target
   it('has a button', () => {
-
+    const component = renderComponent(CommentBox);
+    expect(component.find('button')).to.exist;
   });
 });
