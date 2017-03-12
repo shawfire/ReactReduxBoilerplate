@@ -8,21 +8,23 @@ import CommentBox from '../../src/components/comment_box';
 
 // Use describe to group together similar tests.
 describe('CommentBox' , () => {
+  let component;
+
+  beforeEach(() => {
+    component = renderComponent(CommentBox);
+  });
 
   it('has a the correct class', () => {
-    const component = renderComponent(CommentBox);
     expect(component).to.have.class('comment-box');
   });
 
 
   it('has a text area', () => {
-    const component = renderComponent(CommentBox);
     expect(component.find('textarea')).to.exist;
   });
 
   // Use 'it' to test a single attribute of a target
   it('has a button', () => {
-    const component = renderComponent(CommentBox);
     expect(component.find('button')).to.exist;
   });
 });
