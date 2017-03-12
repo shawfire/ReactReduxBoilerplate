@@ -5,11 +5,8 @@ npm install
 npm start
 npm run test:watch
 ```
-<<<<<<< HEAD
 When adding components and their test rerun this command as mocha will not
 pick up these changes automatically.
-=======
->>>>>>> origin/master
 
 Add Comment label
 --------------
@@ -32,5 +29,3 @@ means that the code can be refactored as long as it produces the same output.
 <<<<<<< HEAD
 
 [chaijs/chai-jquery](https://github.com/chaijs/chai-jquery)
-=======
->>>>>>> origin/master
