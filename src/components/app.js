@@ -2,6 +2,7 @@
 //  Select console - JS tab - to see errors
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import CommentBox from './comment_box';
 
 // Create a new compoent.
 //  This component should produce some HTML.
@@ -17,7 +18,9 @@ export default class App extends Component {
   // //  i.e. babeljs.io/repl
   render() {
     return (
-      <div>This is a React, Redux Boiler Plate App...</div>
+      <div>
+        <CommentBox />
+      </div>
     );
   }
 }
