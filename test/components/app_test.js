@@ -4,9 +4,9 @@ import App from '../../src/components/app';
 // Use describe to group together similar tests.
 describe('App' , () => {
 
-  it('show a comment box', () => {
+  it('show an outer box', () => {
     const component = renderComponent(App);
-    expect(component.find('.comment-box')).to.exist;
+    expect(component.find('.outer-box')).to.exist;
   });
 
 });

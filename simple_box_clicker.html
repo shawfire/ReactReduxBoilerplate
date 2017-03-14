@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #outerContainer {
+      width: 200px;
+      height: 200px;
+      background-color:lightgrey;
+      overflow: hidden;
+    }
+    #outerContainer #innerContainer {
+      position: relative;
+      width: 50%;
+      height: 50%;
+      margin: auto;
+      margin-top: 25%;
+      background-color:grey;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="outerContainer">
+    <div id="innerContainer">
+    </div>
+  </div>
+
+  <script>
+    const clickOutsideContainer = event => {
+      // guard
+      if (event.target === container) {
+        return;
+      }
+      console.log("I have been clicked in the outerContainer but not in the innerContainer...");
+    }
+
+    container = document.getElementById('innerContainer');
+    outerContainer = document.getElementById('outerContainer');
+    outerContainer.addEventListener("click", clickOutsideContainer);
+  </script>
+
+</body>
+</html>

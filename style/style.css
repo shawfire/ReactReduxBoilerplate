@@ -1,0 +1,14 @@
+.outer-box {
+  width: 200px;
+  height: 200px;
+  background-color:lightgrey;
+  overflow: hidden;
+}
+.outer-box .inner-box {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  margin-top: 25%;
+  background-color:grey;
+}

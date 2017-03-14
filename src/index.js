@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './stylesheets/ui.scss'
+import './stylesheets/index.scss'
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 
