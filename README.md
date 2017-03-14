@@ -35,7 +35,7 @@ npm run test:watch
 ```
 When adding components and their test rerun this command as mocha will not
 pick up these changes automatically.
-
+```
 Add Comment label
 --------------
 | textarea   |
@@ -46,7 +46,7 @@ Add Comment button
 |  text         |
 |  comment list |
 -----------------
-
+```
 We care about...
 - It has a text area (Controlled input)
 - It has a button
